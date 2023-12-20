@@ -28,6 +28,7 @@ import random
 - To finalize everything I needed to also print the value of x
 
 x = random.randint(1,15)
+
 print(x)
 
 - The result when ran is a number between 1 and 15 will be the output shown in the terminal
@@ -39,6 +40,7 @@ I'll create another RNG just for good measures below
 
 import random
 y = random.randint(10,1000)
+
 print(y)
 
 The terminal will output a random number for the second RNG between 10 - 1000
